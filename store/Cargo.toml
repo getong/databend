@@ -68,7 +68,7 @@ axum-server = { version = "0.2", features = ["tls-rustls"] }
 [dev-dependencies]
 env_logger = "*"
 pretty_assertions = "0.7"
-test-env-log = "0.2.7"
+test-env-log = "0.2.8"
 flaky_test = "0.1"
 maplit = "1.0.2"
 tower = { version = "0.4", default-features = false, features = ["util", "buffer", "make"] }
